@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турагентство "MVP"</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+        /* Герой бөліміне фондық сурет қосу */
+        #hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('travel-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+        }
+        
+        /* Қалған CSS стильдері */
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6b00;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #e05d00;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>Турагентство "MVP"</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="active"><a href="website.html">Главная</a></li>
+                    <li><a href="tours.html">Туры</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Қош келдіңіз!</h2>
+            <p class="hero-text">Әлемдік сапарларға шығу арманыңызды бізбен бірге жүзеге асырыңыз</p>
+            <a href="tours.html" class="cta-button">Турларды қарау</a>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <div class="welcome-section">
+            <h2>«MVP» турагенттігіне қош келдіңіздер!</h2>
+            <p>Біз сізге бүкіл әлем бойынша ұмытылмас саяхаттарды ұсынамыз. Әрбір сапар - бұл жаңа эмоциялар, тәжірибелер және есте қаларлық сәттер.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-box">
+                <div class="feature-icon">✈️</div>
+                <h3>100+ бағыт</h3>
+                <p>Әлемнің 50-ден астам еліне турлар</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🏨</div>
+                <h3>Ерекше қонақүйлер</h3>
+                <p>5 жұлдызды қонақүйлерден бастап шағын шатырларға дейін</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                <h3>Отбасылық демалыс</h3>
+                <p>Балаларға арналған арнайы бағдарламалар</p>
+            </div>
+        </div>
+
+        <div class="popular-tours">
+            <h2>Танымал турлар</h2>
+            <div class="tour-cards">
+                <div class="tour-card">
+                    <img src="https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/d12f3559-a1bb-4a9a-b5b0-d3b3759d6947/-/format/webp/-/resize/480x/" alt="Алматы туры">
+                    <h3>Алматы және шағын Алтай</h3>
+                    <p>7 күн, 6 түн</p>
+                    <span class="price">149.990 ₸</span>
+                </div>
+                <div class="tour-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOdlyrfLMX6XaHggchShUWWb7iEEOAWdzOdg&s" alt="Бали туры">
+                    <h3>Бали: тропикалық жұмақ</h3>
+                    <p>10 күн, 9 түн</p>
+                    <span class="price">389.990 ₸</span>
+                </div>
+                <div class="tour-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAUO07ZuRSpEHhvlsO8AE6lGh0Oe_GqvPFqQ&s" alt="Еуропа туры">
+                    <h3>Еуропа: 5 елі 1 сапарда</h3>
+                    <p>14 күн, 13 түн</p>
+                    <span class="price">599.990 ₸</span>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <section id="cta">
+        <div class="cta-container">
+            <h2>Саяхат арманыңызды жүзеге асыруды күтіп тұрсыз ба?</h2>
+            <p>Бізге хабарласыңыз, ең қолайлы шешімді табайық</p>
+            <a href="contact.html" class="cta-button">Бізге жазу</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Турагентство "MVP"</h3>
+                <p>Әлемдік сапарлар - жергілікті қызмет</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Байланыс ақпараты</h3>
+                <p>г. Алматы, 1-й микрорайон 81а</p>
+                <p>+7 (778) 583 2303 </p>
+		<p>+7 (705) 491 4765 </p>
+                <p><a href="mailto:mukhamedzhan.kadir@narxoz.kz">mukhamedzhan.kadir@narxoz.kz</a></p>
+		<P><a href="mailto:yerassyl.tursynbayev@narxoz.kz">yerassyl.tursynbayev@narxoz.kz</a></p>
+            </div>
+            
+        </div>
+        <div class="footer-copyright">
+            <p>ТОО «MVP Казахстан» © 2025. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турагентство "MVP" - Контактілер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="website.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #003366;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #contact {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #003366;
+        }
+
+        #contact h1 {
+            font-size: 24px;
+            margin: 0 0 30px 0;
+            color: #444;
+        }
+
+        .contact-section {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 30px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-section p {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .contact-section strong {
+            color: #003366;
+            font-size: 20px;
+        }
+
+        .map-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 30px 0;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #003366;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px 0;
+            transition: color 0.3s;
+        }
+
+        .social-link:hover {
+            color: #ff6b00;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Турагентство "MVP"</h1>
+        <nav>
+            <ul>
+                <li><a href="website.html">Главная</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li class="active"><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contact">
+        <h2>Контакты</h2>
+        <h1>Біздің координаттар</h1>
+        
+        <div class="map-container">
+            <iframe src="https://yandex.kz/map-widget/v1/?ll=76.847013%2C43.227287&mode=whatshere&whatshere%5Bpoint%5D=76.846165%2C43.227067&whatshere%5Bzoom%5D=17&z=17" frameborder="1" allowfullscreen="true"></iframe>
+        </div>
+        
+        <div class="contact-section">
+            <p><strong>Наш адрес</strong></p>
+            <p><em>г. Алматы, 1-й микрорайон 81а</em></p>
+        </div>
+
+        <div class="contact-section">
+            <p><strong>Телефон</strong></p>
+            <p>8 778 583 2303</p>
+            <p>8 705 491 4765</p>
+        </div>
+        
+        <div class="contact-section">
+            <p><strong>Email</strong></p>
+            <p>
+                <a href="mailto:yerassyl.tursynbayev@narxoz.kz" class="social-link">
+                    <img src="https://img.icons8.com/ios-filled/24/003366/new-post.png" alt="Email"/>
+                    yerassyl.tursynbayev@narxoz.kz
+                </a>
+            </p>
+            <p>
+                <a href="mailto:mukhamedzhan.kadir@narxoz.kz" class="social-link">
+                    <img src="https://img.icons8.com/ios-filled/24/003366/new-post.png" alt="Email"/>
+                    mukhamedzhan.kadir@narxoz.kz
+                </a>
+            </p>
+        </div>
+        
+        <div class="contact-section">
+            <p><strong>Инстаграм</strong></p>
+            <p>
+                <a href="https://www.instagram.com/ervh_/" target="_blank" class="social-link">
+                    <img src="https://img.icons8.com/ios-glyphs/30/003366/instagram-new.png" alt="Instagram"/>
+                    Ерасыл
+                </a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/muhamed_zhan1/" target="_blank" class="social-link">
+                    <img src="https://img.icons8.com/ios-glyphs/30/003366/instagram-new.png" alt="Instagram"/>
+                    Мухамеджан
+                </a>
+            </p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>ТОО «MVP Казахстан» &copy; 2025. Барлық құқықтар қорғалған.</p>
+    </footer>
+</body>
+</html>
